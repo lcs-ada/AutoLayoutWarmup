@@ -18,33 +18,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="50I-WN-l7W" userLabel="Red View">
-                                <rect key="frame" x="67" y="59" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VbU-a2-fdY" userLabel="Green View">
-                                <rect key="frame" x="67" y="212" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYs-FJ-IX3" userLabel="Black View">
-                                <rect key="frame" x="67" y="519" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EYs-FJ-IX3" userLabel="Black View">
+                                <rect key="frame" x="0.0" y="332" width="375" height="335"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybx-6T-ymn" userLabel="Blue View">
-                                <rect key="frame" x="67" y="365" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VbU-a2-fdY" userLabel="Green View">
+                                <rect key="frame" x="125" y="0.0" width="130" height="332"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybx-6T-ymn" userLabel="Blue View">
+                                <rect key="frame" x="253" y="0.0" width="122" height="332"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="50I-WN-l7W" userLabel="Red View">
+                                <rect key="frame" x="0.0" y="0.0" width="131" height="332"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ybx-6T-ymn" secondAttribute="bottom" constant="335" id="4I4-jw-1H5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="ybx-6T-ymn" secondAttribute="top" constant="20" id="Cea-Kf-B88"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VbU-a2-fdY" secondAttribute="trailing" constant="120" id="LQs-Ma-gu0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ybx-6T-ymn" secondAttribute="trailing" id="RVQ-GD-Wns"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="50I-WN-l7W" secondAttribute="bottom" constant="325" id="UFz-Jp-rx2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="VbU-a2-fdY" secondAttribute="top" constant="20" id="WFN-WT-Xdj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="50I-WN-l7W" secondAttribute="top" id="Wql-ds-2Cn"/>
+                            <constraint firstItem="EYs-FJ-IX3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bdD-Gr-A0D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VbU-a2-fdY" secondAttribute="bottom" constant="335" id="dHM-S1-hWT"/>
+                            <constraint firstItem="50I-WN-l7W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eLe-dm-GyT"/>
+                            <constraint firstItem="EYs-FJ-IX3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="312" id="hVP-gU-ooF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EYs-FJ-IX3" secondAttribute="trailing" id="jbF-Pt-W8x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EYs-FJ-IX3" secondAttribute="bottom" id="uep-a8-fqV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="50I-WN-l7W" secondAttribute="trailing" constant="325" id="uk8-Vd-H7O"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="248.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
